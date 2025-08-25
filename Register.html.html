@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - QuickFix Hardware</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f2f2f2; margin: 0; }
+    header, footer { background-color: #333; color: white; padding: 20px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .form-container { max-width: 400px; margin: 40px auto; background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    input[type="text"], input[type="email"], input[type="password"] {
+      width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px;
+    }
+    button {
+      width: 100%; padding: 10px; background-color: #007bff; color: white;
+      border: none; border-radius: 5px; font-size: 16px; cursor: pointer;
+    }
+    button:hover { background-color: #0056b3; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Register / Login</h1>
+  <nav>
+    <a href="Homepage.html">Home</a>
+    <a href="ProductManagement.html">Products</a>
+    <a href="Contact.html">Contact</a>
+    <a href="Register.html">Register</a>
+  </nav>
+</header>
+
+<div class="form-container">
+  <h2>Create an Account</h2>
+  <form>
+    <input type="text" placeholder="Full Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <input type="password" placeholder="Password" required>
+    <button type="submit">Register</button>
+  </form>
+
+  <h2 style="margin-top: 30px;">Already have an account?</h2>
+  <form>
+    <input type="email" placeholder="Email Address" required>
+    <input type="password" placeholder="Password" required>
+    <button type="submit">Login</button>
+  </form>
+</div>
+
+<footer>
+  <p>&copy; 2025 QuickFix Hardware</p>
+</footer>
+
+</body>
+</html>
